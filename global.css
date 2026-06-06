@@ -1,0 +1,271 @@
+:root {
+    --dark: #162127;
+    --lightDark: #1f2c33;
+    --jet: #3a3534;
+    --lightJet: #484342;
+    --coffee: #724b39;
+    --lightCoffee: #8f6451;
+    --lightText: #cf9d7b;
+    --lightHover: #aa7d5e;
+    --darktext: #0c1519;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--dark), var(--lightDark));
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    color: var(--lightText);
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.list h1 {
+    margin: 0px;
+    font-size: 1.5em;
+}
+
+.list a {
+    margin: 10px 5%;
+    color: var(--lightText);
+}
+
+.list a:hover{
+    color: var(--lightHover);
+}
+
+.list li {
+    font-size: 1.5em;
+}
+
+.banner {
+    background-color: var(--jet);
+    color: var(--lightText);
+    height: 450px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.coffee {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.terminal {
+    display: inline-block;
+    justify-content: left;
+    margin: 20px;
+    border: 2px solid var(--coffee);
+    width: 800px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: var(--dark);
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+}
+
+#input-line {
+    display: flex;
+    width: 100%;
+}
+
+.terminal p {
+    flex-shrink: 0;
+    display: inline;
+}
+
+#input {
+    flex: 1;
+    background: none;
+    border: none;
+    color: var(--lightText);
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+}
+
+#output {
+    overflow-y: auto;
+    max-height: 380px;
+    width: 800px;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+#about {
+    margin: 0px;
+    padding: 10px;
+    background-color: var(--coffee);
+}
+
+#about h2 {
+    width: fit-content;
+    display: flex;
+    margin: 0px auto;
+    padding: 3px 5px;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: var(--lightText);
+    background-image: linear-gradient(to top left, var(--jet), var(--lightJet));
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px var(--jet);
+}
+
+.education, .experience, .hobbies, .skills {
+    background-image: linear-gradient(to top left, var(--jet), var(--lightJet));
+    color: var(--lightText);
+    margin: 50px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px var(--jet);
+}
+
+.education {
+    display: block;
+    position: relative;
+    margin-right: 50%;
+}
+
+.education h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.education p {
+    padding: 0px 30px 30px;
+}
+
+.experience {
+    display: block;
+    position: relative;
+    margin-left: 45%;
+    margin-right: 10%;
+}
+
+.experience h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.experience p {
+    padding: 0px 30px 30px;
+}
+
+.hobbies {
+    display: block;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 35%;
+}
+
+.hobbies h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.hobbies p {
+    padding: 0px 30px 30px;
+}
+
+.skills {
+    display: block;
+    position: relative;
+    margin: 0, auto;
+    padding-bottom: 20px;
+}
+
+.skills h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.skills p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#blog {
+    background-color: var(--jet);
+    color: var(--lightText);
+    padding: 30px;
+}
+
+#blog h2 {
+    text-align: center;
+}
+
+.posts {
+    text-align: center;
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap;
+}
+
+.post {
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    overflow: scroll;
+    vertical-align: top;
+    width: 29%;
+    height: 200px;
+    white-space: normal;
+    background-image: linear-gradient(to left top, var(--coffee), var(--lightCoffee));
+    border-radius: 16px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px var(--lightDark);
+}
+
+.post h4 {
+    width: fit-content;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px auto;
+    padding: 2px 5px;
+    background-color: var(--jet);
+    border-radius: 16px;
+}
+
+.post p {
+    text-align: justify;
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#contact {
+    background-image: linear-gradient(to top, var(--dark), var(--lightDark));
+    color: var(--lightText);
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+#contact a {
+    margin: 10px 25px;
+}
+
+#contact a:hover{
+    color: var(--lightHover);
+}
