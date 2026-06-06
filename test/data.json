@@ -1,0 +1,53 @@
+{
+  "name": "Robbie Lee",
+  "title": "Software Engineer | Computer Science Student",
+  "bio": "Passionate about application development, game development, and problem solving.",
+  "socials": {
+    "github": "https://github.com/robbie-lee718",
+    "linkedin": "https://www.linkedin.com/in/robert-duane-lee/"
+  },
+  "skills": ["Kotlin/Java & Android Studio", "C# & Unity", "Python", "C++", "JavaScript & Web"],
+  "projects": [
+    {
+      "title": "Simple Terminal",
+      "description": "An interactive, browser-based terminal simulator featuring custom command parsing, directory navigation, and a virtual file system structure.",
+      "tags": ["JavaScript", "HTML", "CSS"],
+      "status": "",
+      "link": " "
+    },
+    {
+      "title": "Voxel World Generator",
+      "description": "A procedural 10x10 voxel world engine built with physics-based player movement, collision detection, and dynamic chunk loading.",
+      "tags": ["C#", "Unity", "Procedural Gen"],
+      "status": "",
+      "link": " "
+    },
+    {
+      "title": "Everyday CLI",
+      "description": "A helpful Command Line Interface that you can use to takes notes, track events, and set reminders.",
+      "tags": ["Python"],
+      "status": "Coming Soon",
+      "link": " "
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineering Intern",
+      "company": "OCV LLC.",
+      "period": "May 2025 - Current",
+      "description": "Working with a team developing, testing, and publishing apps and websites for Sheriffs and Police Departments across the United States. "
+    },
+    {
+      "role": "Operations Supervisor",
+      "company": "Auburn Rec & Wellness",
+      "period": "May 2024 - Current",
+      "description": "As an Operation Supervisor at Auburn Recreation and Wellness I supervised shift employees, oversaw safety and policy enforcement of members and guests, and managed University events that happened within the facility."
+    },
+    {
+      "role": "Light Crew for AU Marching Band",
+      "company": "Auburn University Marching Band",
+      "period": "May 2024 - May 2026",
+      "description": "While in the marching band I assembled, fixed, tested, and distributed lighting rigs used during shows such as \"Viva La France\" and \"Game On\". The light crew consisted of a small group of band members who stayed after hours to get lighting rigs ready for shows."
+    }
+  ]
+}
