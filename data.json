@@ -13,14 +13,25 @@
       "description": "A procedural 10x10 voxel world engine built with physics-based player movement, collision detection, and dynamic chunk loading.",
       "tags": ["C#", "Unity", "Procedural Gen"],
       "status": "Coming Soon",
-      "link": " "
+      "link": [
+        {
+          "text": "Download",
+          "url": "https://robbielee.itch.io/voxel-gen"
+        },
+        {
+          "text": "GitHub",
+          "url": "https://github.com/robbie-lee718/block-game"
+        }
+      ]
     },
     {
       "title": "Everyday CLI",
       "description": "A helpful Command Line Interface that you can use to takes notes, track events, and set reminders.",
       "tags": ["Python"],
       "status": "Coming Soon",
-      "link": " "
+      "link": [
+
+      ]
     }
   ],
   "experience": [

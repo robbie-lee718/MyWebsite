@@ -23,7 +23,7 @@ function populatePortfolio(data) {
   document.getElementById("hero-name").innerText = data.name;
   document.getElementById("hero-title").innerText = data.title;
   document.getElementById("hero-bio").innerText = data.bio;
-  
+
   // Footer setup
   document.getElementById("footer-name").innerText = data.name;
   document.getElementById("footer-year").innerText = new Date().getFullYear();
@@ -61,12 +61,23 @@ function populatePortfolio(data) {
     const tagsHTML = project.tags.map(tag => `<span>${tag}</span>`).join("");
     let status = "";
 
-    if (project.status && (!project.link || project.link.trim() === "")) {
-        status = `<p class="project-status">${project.status}</p>`;
-      } else {
-        const url = project.link || "#";
-        status = `<a href="${url}" target="_blank" class="project-link">View Project &rarr;</a>`;
-      }
+    if (Array.isArray(project.link) && project.link.length > 0) {
+      status = project.link.map(linkObj => `
+      <a href="${linkObj.url}" target="_blank" rel="noopener noreferrer" class="project-link">
+        ${linkObj.text} &rarr;
+      </a>
+    `).join("<br>");
+
+    } else if (typeof project.link === "string" && project.link.trim() !== "") {
+      status = `
+      <a href="${project.link}" target="_blank" rel="noopener noreferrer" class="project-link">
+        View Project &rarr;
+      </a>
+    `;
+
+    } else if (project.status) {
+      status = `<p class="project-status">${project.status}</p>`;
+    }
 
     card.innerHTML = `
       <div>
