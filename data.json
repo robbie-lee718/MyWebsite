@@ -9,13 +9,6 @@
   "skills": ["Kotlin/Java & Android Studio", "C# & Unity", "Python", "C++", "JavaScript & Web"],
   "projects": [
     {
-      "title": "Simple Terminal",
-      "description": "An interactive, browser-based terminal simulator featuring custom command parsing, directory navigation, and a virtual file system structure.",
-      "tags": ["JavaScript", "HTML", "CSS"],
-      "status": "Coming Soon",
-      "link": " "
-    },
-    {
       "title": "Voxel World Generator",
       "description": "A procedural 10x10 voxel world engine built with physics-based player movement, collision detection, and dynamic chunk loading.",
       "tags": ["C#", "Unity", "Procedural Gen"],
