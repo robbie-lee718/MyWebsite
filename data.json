@@ -4,14 +4,15 @@
   "bio": "Passionate about application development, game development, and problem solving.",
   "socials": {
     "github": "https://github.com/robbie-lee718",
-    "linkedin": "https://www.linkedin.com/in/robert-duane-lee/"
+    "linkedin": "https://www.linkedin.com/in/robert-duane-lee/",
+    "resume": "./robert_lee_resume.pdf"
   },
   "skills": ["Kotlin/Java & Android Studio", "C# & Unity", "Python", "C++", "JavaScript & Web"],
   "projects": [
     {
       "title": "Voxel World Generator",
       "description": "A procedural 10x10 voxel world engine built with physics-based player movement, collision detection, and dynamic chunk loading.",
-      "tags": ["C#", "Unity", "Procedural Gen"],
+      "tags": ["C#", "Godot", "Procedural Gen"],
       "status": "Coming Soon",
       "link": [
         {
