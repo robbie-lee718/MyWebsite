@@ -49,6 +49,22 @@
           "url": "https://github.com/robbie-lee718/task-app"
         }
       ]
+    },
+    {
+      "title": "RAG Chatbot",
+      "description": "A chatbot that answers questions based on uploaded files. The chatbot will only answer questions and supply answers to documents that already exist in the database. To give it new information to work off of, just upload a file.<br> (Files that are uploaded affect all users as the agent is trained on a shared database)",
+      "tags": ["Web Application", "Python", "AI"],
+      "status": "Coming Soon",
+      "link": [
+        {
+          "text": "Website",
+          "url": "https://ai-education-chatbot.streamlit.app/"
+        },
+        {
+          "text": "GitHub",
+          "url": "https://github.com/AI-Education-Chatbot-Team/RAG-model"
+        }
+      ]
     }
   ],
   "experience": [
