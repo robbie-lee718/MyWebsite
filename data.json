@@ -52,7 +52,7 @@
     },
     {
       "title": "RAG Chatbot",
-      "description": "A chatbot that answers questions based on uploaded files. The chatbot will only answer questions and supply answers to documents that already exist in the database. To give it new information to work off of, just upload a file.<br> (Files that are uploaded affect all users as the agent is trained on a shared database)",
+      "description": "A chatbot that answers questions based on uploaded files. The chatbot will only answer questions and supply answers to documents that already exist in the database. To give it new information to work off of, upload a file.",
       "tags": ["Web Application", "Python", "AI"],
       "status": "Coming Soon",
       "link": [
