@@ -41,7 +41,7 @@
     {
       "title": "Task App",
       "description": "A Command Line Interface tool and Desktop Application to track tasks. It uses a sqlite database to store and handle tasks.",
-      "tags": ["Desktop", "Python", "Work In Progress"],
+      "tags": ["Desktop", "Python", "SQL", "Work In Progress"],
       "status": "Coming Soon",
       "link": [
         {
