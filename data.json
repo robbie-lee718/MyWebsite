@@ -8,12 +8,32 @@
     "linkedin": "https://www.linkedin.com/in/robert-duane-lee/",
     "resume": "./robert_lee_resume.pdf"
   },
-  "skills": ["Python", "Kotlin", "Java", "C/C++", "JavaScript/TypeScript", "SQL", "HTML/CSS", "React", "Node.js/Next.js", "REST APIs", "Git/GitHub", "Linux/Bash", "Docker", "Ansible"],
+  "skills": [
+    "Python",
+    "Kotlin",
+    "Java",
+    "C/C++",
+    "JavaScript/TypeScript",
+    "SQL",
+    "HTML/CSS",
+    "React",
+    "Node.js/Next.js",
+    "REST APIs",
+    "Git/GitHub",
+    "Linux/Bash",
+    "Docker",
+    "Ansible"
+  ],
   "projects": [
-        {
+    {
       "title": "My E-Portfolio",
       "description": "The website you are currently on made with HTML, CSS, and Javascript.",
-      "tags": ["Web", "HTML", "CSS", "Javascript"],
+      "tags": [
+        "Web",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
       "status": "Coming Soon",
       "link": [
         {
@@ -23,9 +43,34 @@
       ]
     },
     {
+      "title": "Grocery List Webapp",
+      "description": "A grocery list web application built with React and Vite. Features seamless local data persistence, mobile-first responsive design, and PWA support for quick access right from your phone's home screen.",
+      "tags": [
+        "Webapp",
+        "React",
+        "Javascript",
+        "Vite"
+      ],
+      "status": "Coming Soon",
+      "link": [
+        {
+          "text": "Website",
+          "url": "https://web-grocery-list-omega.vercel.app/"
+        },
+        {
+          "text": "GitHub",
+          "url": "https://github.com/robbie-lee718/web-grocery-list"
+        }
+      ]
+    },
+    {
       "title": "Voxel World Generator",
       "description": "A infinite procedural voxel world built with physics-based player movement, collision detection, and dynamic chunk loading.",
-      "tags": ["C#", "Godot", "Procedural Gen"],
+      "tags": [
+        "C#",
+        "Godot",
+        "Procedural Gen"
+      ],
       "status": "Coming Soon",
       "link": [
         {
@@ -41,7 +86,12 @@
     {
       "title": "Task App",
       "description": "A Command Line Interface tool and Desktop Application to track tasks. It uses a sqlite database to store and handle tasks.",
-      "tags": ["Desktop", "Python", "SQL", "Work In Progress"],
+      "tags": [
+        "Desktop",
+        "Python",
+        "SQL",
+        "Work In Progress"
+      ],
       "status": "Coming Soon",
       "link": [
         {
@@ -53,7 +103,11 @@
     {
       "title": "RAG Chatbot",
       "description": "A chatbot that answers questions based on uploaded files. The chatbot will only answer questions and supply answers to documents that already exist in the database. To give it new information to work off of, upload a file.",
-      "tags": ["Web Application", "Python", "AI"],
+      "tags": [
+        "Web Application",
+        "Python",
+        "AI"
+      ],
       "status": "Coming Soon",
       "link": [
         {
